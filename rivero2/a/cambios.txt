@@ -1,0 +1,100 @@
+
+--------------------------------
+CAMBIOS A REALIZAR
+--------------------------------
+
+- dvorak nativo *
+- capa qwerty *
+- capa numeros+flechas *
+- capa símbolos * 
+- capa ajuste rgb+fs * 
+
+- capa togeable con flechas * 
+- capa togeable con wasd cómodo (pueden estar juntas)
+
+
+
+COSAS DEL OLED
+- MODO (personalizado)
+
+
+NUEVOS CAMBIOS (2022)
+- la capa left se activa a veces sola, en general quiero revisar ese sistema
+	- combinación de activación (la actual se activa sola a veces)
+	- el delete hacerlo persistente en capas (sustituye el Tab)
+	- poner un enter
+	- posiblemente revisar donde está puesto el espacio
+	
+- hacer persistente el Control (entre capas), ya que ahora lo estoy empezando a usar para borrar y las flechas (y el Control en QWERTY cambia a Shift)
+- hacer persistente el acento ´, porque con mayúsculas se queda en ¨ y es muy molesto
+- mirar bien el control del cursor (quizás modo lineal)
+- crear capa con los clicks del ratón en la derecha, posiblemente en la letra U
+- probar a hacer que el master sea el left, para las luces [NO FUNCIONA, hay que soldar]
+- podría intentar rehacer el layout para que se permitiese, igual que la izquierda sola puede meter números, que la derecha sola pudiese meter flechas, ya que actualmente para meter flechas hay que hacerlo con dos manos (esto exige cambiar la manera de meter símbolos, exigiendo siempre dos manos)
+- control multimedia: parar la música, subir y bajar volumen (esto solo funcionaba en linux)
+
+- ½: para reestablecer el €, hay que cambiar
+	RAlt+5 --> RAlt+E
+
+
+TECLAS
+
+
+La tecla de Mayus a altas velocidades no va
+
+considerar colocar el control y el shift en los pulgares, es muy incómodo presionarlos, igual para darle a ´ y al Mayus, y la tecla windows y la Alt no son tan usadas. Se podría poner un shift en un pulgar y acostumbrarse a usar eso para poner las mayuscula
+
+Está claro que hay que separar el shift del mayus, un buen candidato a compartir tecla con shift es el boton de windows, que practicamente no lo uso, y cuando tengo a dvorak integrado, aún menos.
+De hecho es un cambio muy simple, Mayus se queda con esa tecla para el solo, y hacemos un tap dance con windows y shift, de modo que si quiero, acostumbrarme a usar shift para mayusculas puedo ir empezando. Tal vez si shift va a ser muy usado, habría que dejarlo libre.
+
+
+recuerda que ctrl no tiene tap dance, igual se puede hacer algo con ello.
+
+
+Las teclas numéricas así me resultan bastante antiintuitivas, habría que probar a ordenarlas correctamente o a cambiarlas por un numpad integrado  [ya me empiezan a ser más intuitivas, pero por ejemplo20 221 83 bueno me va siendo intuitivo, pero no es del todo perfecto, se podría intentar del otro modo no se]
+
+el símbolo $ es más usado de lo que esperaba (gdscript)
+
+claramente usar shift para _:; es incomodísimo, integrar una capa con dvorak nativo vendría de maravilla*
+
+[]{} no son tan usadas, ¿¡ tampoco, pero ?! lo son bastante, igual soy yo pero los meñiques donde están sl no me parecen tán cómodos, especialmente para usar símbolos
+
+=+* no me resultan tan intuitivos, igual habria que cambiarlos por ><, pero '"% creo que están muy bien
+
+una capa nueva con QWERTY que tenga las teclas movidas de modo que se use ESDF en lugar de WASD sería maravilloso, el uso del WASD es horroroso.
+
+He pensado que la capa de una mano puede usar más capas internas, puede ser útil para gaming
+
+cuando cambiemos a dvorak nativo, será muy comodo tener comandos ctrlc ctrlv ctrlx ctrlz ctrly ctrlg altf4 ctrls, caben bajo los números, o mejor bajo las flechas
+
+uso mucho el borrar del meñique, tal vez quitándomelo me podria acostumbrar mas a los pulgares pero no se cual es mejor.
+
+&{}ºª· son incomodísimos, por fortuna no se usan mucho, pero & si que se usa  *
+
+\ no se usa tanto, solo en LaTeX
+| no se usa nunca, quitar de esa posición privilegiada  *
+
+estaría bien hacer una tecla de borrar en la capa derecha, la tecla para enter es muy util, pero se echa en falta borrar  *
+
+
+
+
+
+
+
+OLED
+
+Lo de las capas no me sirve para mucho, si eso alguna vez para ver si los dos teclados estaban conectados, pero en general no sirve porque es obvio que estoy presionando la tecla.
+Lo de los modificadores (shift, alt, ctrl) tampoco es nada útil.
+Y el logo pues menos, al menos es más estética, pero no.
+
+Así que se puede quitar todo, cosas que serían útiles:
+- Modo: dvorak, querty, juego, una mano
+- Mayus: en caso de no acostumbrarme a usar shift, puede ser util
+- Imágen chula: estética
+- Debug: me gusta como queda
+
+Poco más
+
+
+

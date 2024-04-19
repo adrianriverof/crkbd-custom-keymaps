@@ -1,0 +1,15 @@
+
+
+
+COMPILAR
+
+qmk compile -kb crkbd/rev1 -km rivero
+
+
+
+qmk flash
+
+qmk flash -kb <my_keyboard> -km <my_keymap>
+
+
+

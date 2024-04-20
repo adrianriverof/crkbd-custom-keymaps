@@ -26,8 +26,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define MK_KINETIC_SPEED
 
-#define MASTER_LEFT
-// #define MASTER_RIGHT
+#define MASTER_RIGHT
+// #define MASTER_LEFT
 // #define EE_HANDS
 
 // #define SSD1306OLED
@@ -39,7 +39,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define TAPPING_FORCE_HOLD
 #define TAPPING_TERM 150
 #define RETRO_TAPPING
-#define IGNORE_MOD_TAP_INTERRUPT
+//#define IGNORE_MOD_TAP_INTERRUPT
 
 
 
@@ -106,7 +106,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #    undef ENABLE_RGB_MATRIX_RAINBOW_PINWHEELS
 #    undef ENABLE_RGB_MATRIX_RAINDROPS
 #   define ENABLE_RGB_MATRIX_JELLYBEAN_RAINDROPS
-#   define ENABLE_RGB_MATRIX_TYPING_HEATMAP
+//#   define ENABLE_RGB_MATRIX_TYPING_HEATMAP
 #    undef ENABLE_RGB_MATRIX_DIGITAL_RAIN
 #    undef ENABLE_RGB_MATRIX_SOLID_REACTIVE
 #   define ENABLE_RGB_MATRIX_SOLID_REACTIVE_SIMPLE

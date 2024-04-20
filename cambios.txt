@@ -14,27 +14,27 @@ CAMBIOS A REALIZAR
 
 
 
+
+
+
 COSAS DEL OLED
 - MODO (personalizado)
 
 
 NUEVOS CAMBIOS (2022)
+
 - la capa left se activa a veces sola, en general quiero revisar ese sistema
 	- combinación de activación (la actual se activa sola a veces)
 	- el delete hacerlo persistente en capas (sustituye el Tab)
 	- poner un enter
 	- posiblemente revisar donde está puesto el espacio
 	
-- hacer persistente el Control (entre capas), ya que ahora lo estoy empezando a usar para borrar y las flechas (y el Control en QWERTY cambia a Shift)
-- hacer persistente el acento ´, porque con mayúsculas se queda en ¨ y es muy molesto
-- mirar bien el control del cursor (quizás modo lineal)
-- crear capa con los clicks del ratón en la derecha, posiblemente en la letra U
-- probar a hacer que el master sea el left, para las luces [NO FUNCIONA, hay que soldar]
+- hacer persistente el acento ´, porque con mayúsculas se queda en ¨ y es muy molesto [NO SE PUEDE DE FORMA SIMPLE]
+- mirar bien el control del cursor (quizás modo lineal)(añadir selectores de velocidades)
+- crear capa con los clicks del ratón en la derecha, posiblemente en la letra U, y hacer que a la derecha persistan los controles del ratón
 - podría intentar rehacer el layout para que se permitiese, igual que la izquierda sola puede meter números, que la derecha sola pudiese meter flechas, ya que actualmente para meter flechas hay que hacerlo con dos manos (esto exige cambiar la manera de meter símbolos, exigiendo siempre dos manos)
 - control multimedia: parar la música, subir y bajar volumen (esto solo funcionaba en linux)
 
-- ½: para reestablecer el €, hay que cambiar
-	RAlt+5 --> RAlt+E
 
 
 TECLAS

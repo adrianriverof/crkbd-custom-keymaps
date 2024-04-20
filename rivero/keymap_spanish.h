@@ -143,7 +143,7 @@
 #define ES_AT   ALGR(ES_2)    // @
 #define ES_HASH ALGR(ES_3)    // #
 #define ES_TILD ALGR(ES_4)    // ~
-#define ES_EURO ALGR(ES_5)    // €
+#define ES_EURO ALGR(ES_E)    // € antes ponia ALGR(ES_5) o sea que quizás cambia con el sistema operativo
 #define ES_NOT  ALGR(ES_6)    // ¬
 // Row 2
 #define ES_LBRC ALGR(ES_GRV)  // [

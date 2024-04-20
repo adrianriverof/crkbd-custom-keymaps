@@ -1,0 +1,15 @@
+
+
+Mi crkbd tiene el conector micro-usb roto. Difícil solución. Por lo tanto muchas cosas del lado izquierdo no pueden ser actualizadas. Esto incluye, por lo que sé, 
+- layouts RGB 
+- fuente de texto para el OLED
+
+Principalmente molesta de cara a la pantalla, el procesador comprende que es secundaria y pone su configuración para secundaria, creo que no hay manera de cambiarlo.
+
+
+Una solución es que aprenda a soldar y monte un nuevo izquierdo con las piezas que tengo. No pierdo nada por intentarlo. 
+Otra solución más arriesgada (dejar por tanto para si en algún momento logro la primera solución, o si compro nuevas placas), sería desoldar y soldar un nuevo microprocesador. Complicado porque hay que desoldar también el OLED. Del OLED y las LEDs puedo prescindir perfectamente, así que de momento no arriesgarse más.
+
+
+
+

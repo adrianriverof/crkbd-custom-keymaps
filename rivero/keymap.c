@@ -418,6 +418,9 @@ void render_status_1(void) {
     //render_mod_status_gui_alt(get_mods()|get_oneshot_mods());
     //render_mod_status_ctrl_shift(get_mods()|get_oneshot_mods());
 }
+
+// dado que no puedo actualizar la parte izquierda, nada de lo que actualice aquí se va a ver reflejadof
+
 void render_status_2(void) {
     // Renders the current keyboard state (layers and mods)
     render_text();

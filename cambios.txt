@@ -21,6 +21,17 @@ COSAS DEL OLED
 - MODO (personalizado)
 
 
+
+
+Propuestas 2024:
+- prescindir de Bloq Mayus, solo molesta
+- tecla rápida de backspace+ctrl
+- layer ajuste rgb toggeable (no se usa mucho, así deja espacio para otros ajustes útiles)
+- ajuste para ratón más cómodo: que sea más común usar el clic desde el ratón.
+- arreglar un poco el ctrl+c y ctrl+v
+
+
+
 NUEVOS CAMBIOS (2022)
 
 - la capa left se activa a veces sola, en general quiero revisar ese sistema

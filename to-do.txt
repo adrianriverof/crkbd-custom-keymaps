@@ -1,0 +1,13 @@
+
+
+
+- Control de ratón lineal!!
+- Quitar el Mayus
+- Editar Readmes y comentarios sobre licencias y créditos. Señalar al autor de soundmonster
+
+- añadir indicador en pantalla para el modo ratón
+- rediseñar capas y adjust_layer
+
+
+
+

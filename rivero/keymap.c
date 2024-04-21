@@ -120,11 +120,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_ADJUST] = LAYOUT(
   //,-----------------------------------------.                ,-----------------------------------------.
-      QK_BOOT,RGBRST, KC_SLEP, KC_NO, KC_NO, TG(_QWERTY),                  KC_F1,KC_F2, KC_F3, KC_F4, KC_F5, KC_NO,
+      QK_BOOT,RGBRST, KC_NO, KC_NO, KC_NO, TG(_QWERTY),                  KC_F1,KC_F2, KC_F3, KC_F4, KC_F5, KC_NO,
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
     RGB_TOG,RGB_HUI,RGB_SAI,RGB_VAI,RGB_SPI,TG(_ARROWS),             KC_F6,KC_F7, KC_F8, KC_F9, KC_F10, KC_F11,
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-    RGB_MOD,RGB_HUD,RGB_SAD,RGB_VAD,RGB_SPD,AS_TOGG,             KC_CALC,KC_VOLU, KC_VOLD, KC_MUTE, KC_NO, RGB_RMOD,
+    RGB_MOD,RGB_HUD,RGB_SAD,RGB_VAD,RGB_SPD,AS_TOGG,             KC_MYCM,KC_VOLU, KC_VOLD, KC_MUTE, KC_NO, RGB_RMOD,
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
                                 KC_LSFT, LOWER,KC_SPC,   KC_SPC, RAISE,KC_LGUI
                               //`--------------------'  `--------------------'

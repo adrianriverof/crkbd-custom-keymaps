@@ -24,7 +24,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Select hand configuration */
 
-#define MK_MOMENTARY_ACCEL
+//#define MK_COMBINED
+#define MOUSEKEY_INERTIA
 //#define MK_KINETIC_SPEED
 
 #define MASTER_RIGHT

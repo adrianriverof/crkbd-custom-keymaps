@@ -27,6 +27,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define MK_COMBINED
 #define MOUSEKEY_INERTIA
 //#define MK_KINETIC_SPEED
+#define MOUSEKEY_MAX_SPEED 15
+#define MOUSEKEY_FRICTION 15
+
 
 #define MASTER_RIGHT
 // #define MASTER_LEFT

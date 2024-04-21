@@ -114,7 +114,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
     ES_DIAE, ES_UNDS, ES_PLUS, ES_ASTR, ES_CIRC,ES_AT,          ES_PIPE,ES_LCBR,ES_RCBR,ES_MORD,ES_FORD,ES_BULT,
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
-                                KC_TRNS, LOWER,KC_BSPC,   KC_SPC, RAISE,TG(_ARROWS)
+                                KC_TRNS, LOWER,C(KC_BSPC),   KC_SPC, RAISE,TG(_ARROWS)
                               //`--------------------'  `--------------------' 
   ),
 

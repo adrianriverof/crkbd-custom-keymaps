@@ -124,7 +124,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
     RGB_TOG,RGB_HUI,RGB_SAI,RGB_VAI,RGB_SPI,TG(_ARROWS),             KC_F6,KC_F7, KC_F8, KC_F9, KC_F10, KC_F11,
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-    RGB_MOD,RGB_HUD,RGB_SAD,RGB_VAD,RGB_SPD,KC_MPLY,             KC_MPLY,KC_VOLU, KC_VOLD, KC_MUTE, KC_NO, RGB_RMOD,
+    RGB_MOD,RGB_HUD,RGB_SAD,RGB_VAD,RGB_SPD,AS_TOGG,             KC_CALC,KC_VOLU, KC_VOLD, KC_MUTE, KC_NO, RGB_RMOD,
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
                                 KC_LSFT, LOWER,KC_SPC,   KC_SPC, RAISE,KC_LGUI
                               //`--------------------'  `--------------------'
@@ -144,11 +144,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_MOUSE] = LAYOUT(   ////BOTONES DEL RATON PERMANENTES
     //,-----------------------------------------.                ,---------------------------------------------. 
-      KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,                   KC_TRNS,  KC_TRNS,  KC_MS_U,  KC_TRNS,  KC_TRNS,  KC_TRNS,
+      KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,                   KC_TRNS,  KC_TRNS,  KC_MS_U,  KC_TRNS,  KC_WH_U,  KC_TRNS,
     //|------+------+------+------+------+------|                |------+------+-------+------+-------+--------|
-      KC_TRNS,  KC_TRNS,  KC_BTN2,  KC_BTN3,  KC_BTN1,  KC_TRNS,                  KC_TRNS,  KC_MS_L,  KC_MS_D,  KC_MS_R, KC_TRNS,KC_TRNS,
+      KC_TRNS,  KC_TRNS,  KC_BTN2,  KC_BTN3,  KC_BTN1,  KC_TRNS,                  KC_TRNS,  KC_MS_L,  KC_MS_D,  KC_MS_R, KC_WH_D,KC_TRNS,
     //|------+------+------+------+------+------|                |------+------+-------+------+-------+--------|
-      KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,                KC_TRNS,  KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
+      KC_TRNS,  KC_TRNS,  KC_ACL0,  KC_ACL1,  KC_ACL2,  KC_TRNS,                KC_TRNS,  KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
     //|------+------+------+------+------+------+------|  |------+------+------+-------+------+-------+--------|
                                KC_TRNS,KC_TRNS, KC_TRNS,   KC_TRNS, KC_TRNS, KC_TRNS
                                 //`--------------------'  `--------------------'

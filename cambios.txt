@@ -3,28 +3,20 @@
 CAMBIOS A REALIZAR
 --------------------------------
 
-- dvorak nativo *
-- capa qwerty *
-- capa numeros+flechas *
-- capa símbolos * 
-- capa ajuste rgb+fs * 
 
-- capa togeable con flechas * 
-- capa togeable con wasd cómodo (pueden estar juntas)
-
-
-
-
-
-
-COSAS DEL OLED
-- MODO (personalizado)
+REDISEÑO DE CAPAS:
+- [Opción] quitamos el ctrl pulgar derecho, ponemos una capa ahí
+- [Opción] rise+lower lleva a una capa distinta que lower+rise
+- [] desde rise (mod izq) quitamos control ratón en lado derecho, tenemos sitio para poner ahí capas toggeables
+- [] ratón toggeable de forma rápida desde izquierda (mod+x)
+- Control de rgb tiene que ser una capa toggeable desde Adjust, que no ocupe espacio en adjust
+- Adjust hay que llenarlo con algo entonces
 
 
 
 
 Propuestas 2024:
-- prescindir de Bloq Mayus, solo molesta
+- prescindir de Bloq Mayus, solo molesta*
 - tecla rápida de backspace+ctrl
 - layer ajuste rgb toggeable (no se usa mucho, así deja espacio para otros ajustes útiles)
 - ajuste para ratón más cómodo: que sea más común usar el clic desde el ratón.

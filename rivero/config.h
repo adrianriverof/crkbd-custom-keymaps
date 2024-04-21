@@ -24,7 +24,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Select hand configuration */
 
-#define MK_KINETIC_SPEED
+#define MK_3_SPEED
+//#define MK_KINETIC_SPEED
 
 #define MASTER_RIGHT
 // #define MASTER_LEFT

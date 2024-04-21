@@ -6,4 +6,5 @@ OLED_ENABLE        = yes
 #OLED_DRIVER        = SSD1306
 LTO_ENABLE         = yes
 LOCAL_GLCDFONT = yes
+AUTO_SHIFT_ENABLE = yes
 
